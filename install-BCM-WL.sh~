@@ -1,4 +1,0 @@
-#! /bin/bash
-sudo systemctl enable bluetooth.service
-sudo cp ./*.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb && sudo modprobe btusb
